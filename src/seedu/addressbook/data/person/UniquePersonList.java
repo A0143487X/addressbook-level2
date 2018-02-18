@@ -134,7 +134,7 @@ public class UniquePersonList implements Iterable<Person> {
      * Returns a new alphanumeric sorted UniquePersonList of all persons in the address book at the time of the call.
      */
     public void sortAlphanumeric() {
-        // IMPLEMENT SORT HERE
+        internalList.sort(Person.PersonNameComparator);
     }
 
     @Override
