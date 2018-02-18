@@ -108,6 +108,14 @@ public class AddressBook {
     }
 
     /**
+     * Sorts address book entries alphanumerically
+     * Returns a new alphanumeric sorted UniquePersonList of all persons in the address book at the time of the call.
+     */
+    public void sortAlphanumeric() {
+        allPersons.sortAlphanumeric();
+    }
+
+    /**
      * Returns a new UniquePersonList of all persons in the address book at the time of the call.
      */
     public UniquePersonList getAllPersons() {

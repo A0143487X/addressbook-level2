@@ -129,6 +129,14 @@ public class UniquePersonList implements Iterable<Person> {
         internalList.clear();
     }
 
+    /**
+     * Sort all persons in list  alphanumerically
+     * Returns a new alphanumeric sorted UniquePersonList of all persons in the address book at the time of the call.
+     */
+    public void sortAlphanumeric() {
+        // IMPLEMENT SORT HERE
+    }
+
     @Override
     public Iterator<Person> iterator() {
         return internalList.iterator();
